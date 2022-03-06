@@ -14,6 +14,7 @@ function toggleDarkMode() {
     else {
         bodyElement.style.background = "black";
         darkModeButtonElement.innerHTML = "Change to Light Mode!";
+        bodyElement.style.color = "white";
 
     }
 }
