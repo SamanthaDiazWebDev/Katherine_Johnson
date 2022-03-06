@@ -6,6 +6,7 @@ function toggleDarkMode() {
     if (bodyElement.style.background === "black") {
         bodyElement.style.background = "#f9eae1"; 
         darkModeButtonElement.innerHTML = "Change to Dark Mode!";
+        bodyElement.style.color = "black";
 
     }
    
